@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProyectoCoder</title>
+  <link rel="stylesheet" href="./CSS/styles.css" />
+  <script defer src="./JS/script.js"></script>
+</head>
+
+<body>
+  <!-- Encabezado principal -->
+  <header class="main-header">
+    <!-- Marca -->
+    <h1 id="titulo">Nombre1</h1>
+    
+    <!-- Fila: ubicación + buscador -->
+    <section class="search-bar-section">
+      <div class="location-box">
+        <span class="location-label">📍 Buenos Aires</span>
+      </div>
+
+      <div class="search-container">
+        <input type="text" placeholder="Buscar locales o productos..." />
+        <button class="btn-search">🔍</button>
+      </div>
+    </section>
+  </header>
+
+  <!-- Sección de categorías -->
+  <section class="category-section">
+    <h2 class="category-title">¿Qué estás buscando hoy?</h2>
+
+    <!-- Fila 1 -->
+    <div class="category-row">
+      <div class="category-item">
+        <img src="./assets/Electrodomesticos.png" alt="Categoría 1" />
+        <p>Electrodomesticos</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Electricidad.png" alt="Categoría 2" />
+        <p>Electricidad</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Gas.png" alt="Categoría 3" />
+        <p>Gas</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Agua.png" alt="Categoría 4" />
+        <p>Agua</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Construcción.png" alt="Categoría 5" />
+        <p>Construcción</p>
+      </div>
+    </div>
+
+    <!-- Fila 2 -->
+    <div class="category-row">
+      <div class="category-item">
+        <img src="./assets/Muebles.png" alt="Categoría 6" />
+        <p>Muebles</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Computación.png" alt="Categoría 7" />
+        <p>Informática</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Celulars.png" alt="Categoría 8" />
+        <p>Celulares</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Programación.png" alt="Categoría 9" />
+        <p>Programación</p>
+      </div>
+      <div class="category-item">
+        <img src="./assets/Vidrio.png" alt="Categoría 10" />
+        <p>Vidriería</p>
+      </div>
+    </div>
+    <section></section>
+
+    <!-- Mensaje si no hay resultados -->
+    <p id="no-results" class="no-results" style="display: none;">No se encontraron resultados.</p>
+  </section>
+</body>
+
+</html>
